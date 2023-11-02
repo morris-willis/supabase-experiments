@@ -16,3 +16,4 @@ create policy "Authenticated users can select todos" on todos
 
 create policy "Authenticated users can insert their own todos" on todos
   for insert to authenticated with check (auth.uid() = user_id);
+

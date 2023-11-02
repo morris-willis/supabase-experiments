@@ -1,3 +1,6 @@
+# Experiments with supabase
+this app was created to use supabase to experiment with its features, especially row level security and realtime updates
+
 # Supabase Starter
 
 This starter configures Supabase Auth to use cookies, making the user's session available throughout the entire Next.js app - Client Components, Server Components, Route Handlers, Server Actions and Middleware.
